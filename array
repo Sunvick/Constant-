@@ -1,0 +1,127 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNspaC6S/Rovf0AH+fACX+2"
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wxbgEy33VSmK",
+        "outputId": "b73f2818-ac11-4aba-bf87-015ba3c48b89"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[[1 2]\n",
+            " [3 4]]\n"
+          ]
+        }
+      ],
+      "source": [
+        "import numpy as np \n",
+        "number = np.array([[1,2],[3,4]])\n",
+        "print(number)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "animals = [\"dog\",\"cat\",\"fish\"]\n",
+        "for x in animals:\n",
+        "  print(x)\n",
+        "  if x=='cat':\n",
+        "    break\n",
+        " \n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1idmdoG8gGpU",
+        "outputId": "ebda7fd6-a3a4-4755-8c24-4f3711dfba8d"
+      },
+      "execution_count": 61,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dog\n",
+            "cat\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Cars =[\"Sunvick\",\"Abusa\",\"Gencianeo\"]\n",
+        "Cars.append('Blue')\n",
+        "print(Cars)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "roTdEkE9jg7L",
+        "outputId": "209df595-9028-4821-e793-c51672545bf1"
+      },
+      "execution_count": 48,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Sunvick', 'Abusa', 'Gencianeo', 'Blue']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Cars =([[\"Sunvick\",\"Abusa\"],[\"Gencianeo\",\"Blue\"]])\n",
+        "Cars.append('King')\n",
+        "for x in Cars :\n",
+        "  print(x)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nngHIuEQlx0t",
+        "outputId": "d227d8bf-9d0b-4f9b-c22d-d96b7872e31b"
+      },
+      "execution_count": 57,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Sunvick', 'Abusa']\n",
+            "['Gencianeo', 'Blue']\n",
+            "King\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
